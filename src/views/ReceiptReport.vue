@@ -31,18 +31,6 @@
 </template>
 
 <script>
-
-/*
-Квитанция о приеме отчета
-
-От: Главное управление статистики ДНР
-Кому: <Наименование организации>
-
-Главным управлением статистики ДНР принят в электронном виде отчет по форме <Наименование формы>.
-Дата и время приема отчета: <дата и время отправки>
-Регистрационный №: <Номер >
-*/
-
 import dannieText from '/home/iai/workOcen3/25112020/1149/src/components/dannieText'
 import dannieDate from '/home/iai/workOcen3/25112020/1149/src/components/dannieDate'
 import dannieNumber from '/home/iai/workOcen3/25112020/1149/src/components/dannieNumber'
@@ -112,18 +100,7 @@ export default {
 
 .textPoleRu {
     text-align:left;
-    width: 900px;
+    /* width: 900px; */
 }
 
-.elemData {
-    float: right;
-}
-
-label {
-    float:left;
-}
-
-.anketList {
-    float:left
-}
 </style>

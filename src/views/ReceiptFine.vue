@@ -44,11 +44,11 @@
 
 <script>
 
-import dannieText from '/home/iai/workOcen3/25112020/0835/src/components/dannieText'
-import dannieDate from '/home/iai/workOcen3/25112020/0835/src/components/dannieDate'
-import dannieNumber from '/home/iai/workOcen3/25112020/0835/src/components/dannieNumber'
-import dannieEmail from '/home/iai/workOcen3/25112020/0835/src/components/dannieEmail'
-import danniePhone from '/home/iai/workOcen3/25112020/0835/src/components/danniePhone'
+import dannieText from '/home/iai/workOcen3/25112020/1149/src/components/dannieText'
+import dannieDate from '/home/iai/workOcen3/25112020/1149/src/components/dannieDate'
+import dannieNumber from '/home/iai/workOcen3/25112020/1149/src/components/dannieNumber'
+import dannieEmail from '/home/iai/workOcen3/25112020/1149/src/components/dannieEmail'
+import danniePhone from '/home/iai/workOcen3/25112020/1149/src/components/danniePhone'
 
 export default {
   name: 'app',
@@ -92,7 +92,7 @@ export default {
 
       },
       messAnket() {
-
+        alert('Объект отправлен содержимое можно посмотреть в консоле.')
         console.log(this.sborkaUser)
 
       }
