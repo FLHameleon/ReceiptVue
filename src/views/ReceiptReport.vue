@@ -83,9 +83,8 @@ export default {
 
       },
       messAnket() {
-
+        alert('Объект отправлен содержимое можно посмотреть в консоле.')
         console.log(this.sborkaUser)
-
       }
      
     },

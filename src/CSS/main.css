@@ -6,8 +6,3 @@
 body {
     background: linear-gradient(rgb(53, 203, 195), rgb(52, 50, 189));
   }
-
-router-link {
-    color: yellow;
-    background: crimson;
-}

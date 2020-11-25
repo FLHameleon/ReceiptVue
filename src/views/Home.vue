@@ -26,12 +26,7 @@ p {
 div {
   width: 100%;
   height: 100vh;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
   padding: 20px;
-  /* overflow: hidden; */
-  /* background: linear-gradient(rgb(53, 203, 195), rgb(52, 50, 189)); */
 }
 
 h1 {
